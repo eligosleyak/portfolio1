@@ -1,82 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Shashank Acharya | Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Shashank Acharya | Terminal Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav>
-    <h2 class="logo">Shashank</h2>
-    <button id="theme-toggle" title="Toggle dark mode">🌙</button>
-</nav>
+<div class="background"></div>
 
-<header class="hero fade-in">
-    <h1>Shashank Acharya</h1>
-    <p>QA Engineer | Python | Web Applications</p>
-    <a href="#projects" class="btn">View My Work</a>
-</header>
+<div class="container">
+  <h2>Shashank's Terminal Portfolio</h2>
 
-<section id="about" class="fade-in">
-    <h2>About Me</h2>
-    <p>
-        I am a QA-focused professional with experience in manual testing,
-        web application testing, performance testing, and real-world
-        software quality assurance workflows.
-    </p>
-</section>
-
-<!-- CV SECTION -->
-<section id="cv" class="fade-in">
-    <h2>Curriculum Vitae</h2>
-    <p>Download my CV for a detailed overview of my skills and experience.</p>
-
-    <a href="assets/Shashank_Acharya_CV.pdf"
-       class="cv-btn"
-       download
-       target="_blank">
-        <span>📄 Download CV</span>
-    </a>
-</section>
-
-<section id="skills" class="fade-in">
-    <h2>Skills</h2>
-    <div class="skills-container">
-        <span>Manual Testing</span>
-        <span>Test Case Design</span>
-        <span>Python</span>
-        <span>SQL</span>
-        <span>JMeter</span>
-        <span>Git</span>
+  <div id="chat-box">
+    <div class="message bot">
+      Hello! I'm Shashank 👋. Click a button to know more.
     </div>
-</section>
+  </div>
 
-<section id="projects" class="fade-in">
-    <h2>Projects</h2>
+  <div id="options">
+    <button data-id="about">About Me</button>
+    <button data-id="skills">Skills</button>
+    <button data-id="projects">Projects</button>
+    <button data-id="cv">Download CV</button>
+    <button data-id="contact">Contact</button>
+  </div>
+</div>
 
-    <div class="project-card">
-        <h3>Web Application Testing</h3>
-        <p>Functional, regression, and UI testing of web-based systems.</p>
-    </div>
-
-    <div class="project-card">
-        <h3>Performance Testing</h3>
-        <p>Load and stress testing using Apache JMeter.</p>
-    </div>
-</section>
-
-<section id="contact" class="fade-in">
-    <h2>Contact</h2>
-    <p>Email: shashank@example.com</p>
-    <p>GitHub: github.com/yourusername</p>
-</section>
-
-<footer>
-    <p>© 2025 Shashank Acharya</p>
-</footer>
-
+<script src="data.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
